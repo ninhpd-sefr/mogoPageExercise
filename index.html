@@ -37,15 +37,12 @@
 
                     </ul>
                 </div>
-                <label for="checkBox" class="header-nav-menu">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-                <input type="checkbox" hidden id="checkBox" class="checkbox">
+                
 
-                <label for="checkBox" class="header-nav-overlay">     
-                </label>
+                <div class="header-nav-menu"> <i class="fa-solid fa-bars"></i></div>
+            
 
-                <div class="header_nav_mobile">
+                <div class="header_nav_mobile none">
                     <div class="mobile-header">
                         <label for="checkBox" class="mobile-header-close">
                             <i class="fa-solid fa-xmark"></i>
@@ -364,7 +361,7 @@ do eiusmod tempor.
                     </div>
 
                     <div class="content-services-right">
-                        <div class="accordion-item active">
+                        <div class="accordion-item">
                             <div class="accordion-header">
                                 <div class="accordion-header-title">
                                 <i class="fa-solid fa-image"></i>
@@ -411,16 +408,6 @@ do eiusmod tempor.
                 
 
             </div>
-
-            <script>
-                $(document).ready(function(){
-                    $(".accordion-item.active .accordion-body").slideDown();
-                    $(".accordion-header").click(function(){
-                      $(this).parent().toggleClass("active");
-                      $(this).parent().children(".accordion-body").slideToggle();
-                   })
-                })
-            </script>
 
             
 
@@ -558,7 +545,7 @@ do eiusmod tempor.
             </div>
         </div>
 
-        <div class="content-brand">
+        <div class="content-brand none">
             <div class="content-wrap brand-body">
                 <img src="./img/monggo/mogo_image/logo.png" alt="">
             </div>
@@ -1045,6 +1032,6 @@ do eiusmod tempor.
             
         </div>
     </div>
-
+    <script src="./js/main.js"></script>
 </body>
 </html>
