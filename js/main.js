@@ -9,3 +9,7 @@ btnOnMenu.onclick = function(){
 btnCloseMenu.onclick = function(){
     resMenu.classList.toggle("none")
 }
+
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );

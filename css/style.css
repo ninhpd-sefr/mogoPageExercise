@@ -598,6 +598,11 @@ body{
     width: 48%;
 }
 
+.ui-state-active{
+    background-color: #d88684 !important;
+    border: none !important;
+}
+
 .accordion-item{
     margin-bottom: 10px;
 }
